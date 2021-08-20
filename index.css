@@ -1,0 +1,14 @@
+#super{
+    width: 960px;
+    height: 960px;
+    display: inline-grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  grid-template-rows: repeat(var(--cols), 1fr);
+  border: 1px solid black;
+  grid-gap: 1px;
+  background-color: black;
+}
+
+.miniDiv{
+    background-color: white;
+}
